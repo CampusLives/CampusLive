@@ -11,7 +11,7 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-[Description of your app]
+Allows college students to share news, resources and events within the college.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]

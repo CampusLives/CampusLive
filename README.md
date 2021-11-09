@@ -75,7 +75,7 @@ Allows college students to share news, resources and events within the college.
 * [Creator Screen]
 
 ## Wireframes
-<img src="" width=600>
+<img src="https://github.com/CampusLives/CampusLive/blob/main/wireframes.jpg" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 

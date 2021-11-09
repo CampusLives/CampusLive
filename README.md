@@ -14,7 +14,6 @@ Original App Design Project - README Template
 Allows college students to share news, resources and events within the college.
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
 - **Category: News/ Social Networking**
 - **Mobile: This app would be primarily developed for IOS mobile **
 - **Story: Users would be the students of a campus. The user can post the news and events going on campus.**
@@ -34,6 +33,7 @@ Allows college students to share news, resources and events within the college.
 * [User can post news]
 * [User can verify news]
 * [User can post a comment]
+
 **Optional Nice-to-have Stories**
 
 * [User can share a location.]
@@ -54,7 +54,7 @@ Allows college students to share news, resources and events within the college.
 * [Creation]
    * [Allow user to create new posts by presenting user with input fields and allowing them to attach media.]
 * [Settings]
-   * [Gives user the ability to tune preferences and profile setting associated with their account as username and email]
+   * [Gives user the ability to tune preferences and profile setting associated with their account such as username and email]
 
 ### 3. Navigation
 

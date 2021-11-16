@@ -103,79 +103,14 @@ createdAt|DateTime|Date when news is created
 updatedAt|DateTime|Date when news is last updated
 
 ### Networking
-
-Stream Screen:
+**Stream Screen:**
+:-----:
 •    (Read/GET) Query all posts where user is author
-•    // iOS
-•    // (Read/GET) Query all posts where user is author
-•    let query = PFQuery(className:"Post")
-•    query.whereKey("author", equalTo: currentUser)
-•    query.order(byDescending: "createdAt")
-•    query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
-•       if let error = error {
-•          print(error.localizedDescription)
-•       } else if let posts = posts {
-•          print("Successfully retrieved \(posts.count) posts.")
-•          // TODO: Do something with posts...
-•       }
-•    }
-
-•    (Create/POST) Create a new verify on a post
-•    (Delete) Delete existing verify
-•    (Create/POST) Create a new comment on a post
-•    (Delete) Delete existing comment
-•    
-// Delete a Comment
-PFObject.deleteAll(inBackground: objectArray) { (succeeded, error) in
-    if (succeeded) {
-        // The array of objects was successfully deleted.
-    } else {
-        // There was an error. Check the errors localizedDescription.
-    }
-}
-
-
-Creation Screen:
-•    (Create/POST) Create a new post object
-let posts = PFObject(className:"Post")
-posts["userId"] = 1337
-posts["First name"] = "Sean"
-posts.saveInBackground { (succeeded, error)  in
-    if (succeeded) {
-    // The object has been saved.
-    } else {
-    // There was a problem, check error.description
-    }
-}
-
-
-Search Screen:
-•    (Read/GET) Query all posts related to search field
-
-Detail Screen:
-•    (Read/GET) Query all details of the post upon clicking the post
-•    (Create/POST) Create a new verify on a post
-•    (Delete) Delete existing verify
-•    (Create/POST) Create a new comment on a post
-•    (Delete) Delete existing comment
-Setting Screen:
-•    (Read/GET) Query logged in user object
-•    (Update/PUT) Update username, email, and password.
-let query = PFQuery(className:"User")
-   query.getObjectInBackground(withId: "xWMyZEGZ") { (User: PFObject?, error: Error?) in
-if let error = error {
-      print(error.localizedDescription)
-} else if let User = User {
-     User["UserId"] = 1345
-     User["email"] = sam@gmail.com
-     User.saveInBackground()
-}
-}
-
-
-
-
-
+**•**|**(Create/POST) Create a new verify on a post**
+:-----:|:-----:
+•|(Delete) Delete existing verify
+•|(Create/POST) Create a new comment on a post
+•|(Delete) Delete existing comment
 
 
 

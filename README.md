@@ -103,14 +103,13 @@ createdAt|DateTime|Date when news is created
 updatedAt|DateTime|Date when news is last updated
 
 ### Networking
-**Stream Screen:**
-:-----:
+Stream Screen:
 •    (Read/GET) Query all posts where user is author
-**•**|**(Create/POST) Create a new verify on a post**
-:-----:|:-----:
-•|(Delete) Delete existing verify
-•|(Create/POST) Create a new comment on a post
-•|(Delete) Delete existing comment
+•    (Create/POST) Create a new verify on a post
+•    (Delete) Delete existing verify
+•    (Create/POST) Create a new comment on a post
+•    (Delete) Delete existing comment
+
 
 
 

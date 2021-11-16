@@ -82,13 +82,100 @@ Allows college students to share news, resources and events within the college.
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
+Model: Users
+**Property**|**Type**|**Description**
+:-----:|:-----:|:-----:
+UserId|String|Unique id for the user 
+First name|String|First name of the user
+Last name|String |Last name of the user
+College Email|String|College email address of the user 
+
+Model: Posts
+**objectId**|**String**|**Unique id for the user post**
+:-----:|:-----:|:-----:
+author|Pointer to user|Image author
+news|String |News by author
+commentsCount|Number|Number of comments that has been posted to the posted news
+verifyCount|Number|Number of verifications for the news
+createdAt|DateTime|Date when news is created
+updatedAt|DateTime|Date when news is last updated
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+Stream Screen:
+•    (Read/GET) Query all posts where user is author
+•    // iOS
+•    // (Read/GET) Query all posts where user is author
+•    let query = PFQuery(className:"Post")
+•    query.whereKey("author", equalTo: currentUser)
+•    query.order(byDescending: "createdAt")
+•    query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+•       if let error = error {
+•          print(error.localizedDescription)
+•       } else if let posts = posts {
+•          print("Successfully retrieved \(posts.count) posts.")
+•          // TODO: Do something with posts...
+•       }
+•    }
+
+•    (Create/POST) Create a new verify on a post
+•    (Delete) Delete existing verify
+•    (Create/POST) Create a new comment on a post
+•    (Delete) Delete existing comment
+•    
+// Delete a Comment
+PFObject.deleteAll(inBackground: objectArray) { (succeeded, error) in
+    if (succeeded) {
+        // The array of objects was successfully deleted.
+    } else {
+        // There was an error. Check the errors localizedDescription.
+    }
+}
+
+
+Creation Screen:
+•    (Create/POST) Create a new post object
+let posts = PFObject(className:"Post")
+posts["userId"] = 1337
+posts["First name"] = "Sean"
+posts.saveInBackground { (succeeded, error)  in
+    if (succeeded) {
+    // The object has been saved.
+    } else {
+    // There was a problem, check error.description
+    }
+}
+
+
+Search Screen:
+•    (Read/GET) Query all posts related to search field
+
+Detail Screen:
+•    (Read/GET) Query all details of the post upon clicking the post
+•    (Create/POST) Create a new verify on a post
+•    (Delete) Delete existing verify
+•    (Create/POST) Create a new comment on a post
+•    (Delete) Delete existing comment
+Setting Screen:
+•    (Read/GET) Query logged in user object
+•    (Update/PUT) Update username, email, and password.
+let query = PFQuery(className:"User")
+   query.getObjectInBackground(withId: "xWMyZEGZ") { (User: PFObject?, error: Error?) in
+if let error = error {
+      print(error.localizedDescription)
+} else if let User = User {
+     User["UserId"] = 1345
+     User["email"] = sam@gmail.com
+     User.saveInBackground()
+}
+}
+
+
+
+
+
 
 
 

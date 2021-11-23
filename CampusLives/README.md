@@ -174,7 +174,12 @@ PFObject.deleteAll(inBackground: objectArray) { (succeeded, error) in
     }
     }
     ```
+## Video Walkthrough
 
+Here's a walkthrough of implemented Sprint 1 to create User login and User sign up:
+- [x] User can login
+- [x] User can sign up
+<img src='https://github.com/CampusLives/CampusLive/blob/main/CampusLives/campusLives1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 

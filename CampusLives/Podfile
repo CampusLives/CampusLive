@@ -6,14 +6,7 @@ target 'CampusLives' do
   use_frameworks!
 
   # Pods for CampusLives
-
-  target 'CampusLivesTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'CampusLivesUITests' do
-    # Pods for testing
-  end
+  pod "Parse"
+  pod "AlamofireImage"
 
 end

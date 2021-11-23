@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import Parse
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let parseConfig = ParseClientConfiguration {
                     $0.applicationId = "IrDGNMsYiNWdw5gTA6QXHj9Ozo4kAY9LT9VJTfNC" // <- UPDATE
                     $0.clientKey = "BJFtnh5HXESFkpCFUVRaYLObZL41NsnBWpmyrz1j" // <- UPDATE
-                    $0.server = "https://parseapi.back4app.com"
+                    $0.server = "https://parseapi.back4app.com/"
             }
             Parse.initialize(with: parseConfig)
         return true

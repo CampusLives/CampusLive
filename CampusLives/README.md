@@ -181,6 +181,11 @@ Here's a walkthrough of implemented Sprint 1 to create User login and User sign 
 - [x] User can sign up
 <img src='https://github.com/CampusLives/CampusLive/blob/main/CampusLives/campusLives1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+Here's a walkthrough of implemented Sprint 2 to post and comment:
+- [x] User can post pictures from camera/album
+- [x] User can comment on a post!
+<img src='https://github.com/CampusLives/CampusLive/blob/main/CampusLives/campusLives2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
 
 

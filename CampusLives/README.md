@@ -27,12 +27,12 @@ Allows college students to share news, resources and events within the college.
 
 **Required Must-have Stories**
 
--[.] [User can login.]
--[.] [User can sign up.]
--[] [User can follow/unfollow other users.]
--[.] [User can post news]
--[] [User can verify news]
--[.] [User can post a comment]
+- [ x] [User can login.]
+- [ x] [User can sign up.]
+- [ ] [User can follow/unfollow other users.]
+- [ x] [User can post news]
+- [ ] [User can verify news]
+- [ ] [User can post a comment]
 
 **Optional Nice-to-have Stories**
 

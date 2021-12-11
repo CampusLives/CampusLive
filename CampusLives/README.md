@@ -188,11 +188,11 @@ Here's a walkthrough of implemented Sprint 2 to post and comment:
 - [x] User can caption on post!
 <img src='https://github.com/CampusLives/CampusLive/blob/main/CampusLives/campusLives2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-Here's a walkthrough of implemented Sprint 2 to post and comment:
+Here's a walkthrough of implemented Sprint 3 to stay logged in across restart and logout:
 - [x] User can stay logged in across restart.
 - [x] User can logout.
 - [x] Comment box same as instagram.
-<img src='https://github.com/CampusLives/CampusLive/blob/main/CampusLives/campusLives3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/CampusLives/CampusLive/blob/main/CampusLives/campusLive3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 

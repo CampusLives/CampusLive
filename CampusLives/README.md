@@ -32,7 +32,7 @@ Allows college students to share news, resources and events within the college.
 - [ ] [User can follow/unfollow other users.]
 - [ x] [User can post news]
 - [ ] [User can verify news]
-- [ ] [User can post a comment]
+- [ x] [User can post a comment]
 
 **Optional Nice-to-have Stories**
 

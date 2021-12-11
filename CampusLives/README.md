@@ -29,6 +29,8 @@ Allows college students to share news, resources and events within the college.
 
 - [ x] [User can login.]
 - [ x] [User can sign up.]
+- [ x] [User can stay logged in across restart.]
+- [ x] [User can logout.]
 - [ ] [User can follow/unfollow other users.]
 - [ x] [User can post news]
 - [ ] [User can verify news]
@@ -183,8 +185,15 @@ Here's a walkthrough of implemented Sprint 1 to create User login and User sign 
 
 Here's a walkthrough of implemented Sprint 2 to post and comment:
 - [x] User can post pictures from camera/album
-- [x] User can comment on a post!
+- [x] User can caption on post!
 <img src='https://github.com/CampusLives/CampusLive/blob/main/CampusLives/campusLives2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+Here's a walkthrough of implemented Sprint 2 to post and comment:
+- [x] User can stay logged in across restart.
+- [x] User can logout.
+- [x] Comment box same as instagram.
+<img src='https://github.com/CampusLives/CampusLive/blob/main/CampusLives/campusLives3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
 
 

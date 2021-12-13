@@ -183,7 +183,7 @@ Here's a walkthrough of implemented Sprint 1 to create User login and User sign 
 - [x] User can sign up
 <img src='https://github.com/CampusLives/CampusLive/blob/main/CampusLives/campusLives1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-Here's a walkthrough of implemented Sprint 2 to post and comment:
+Here's a walkthrough of implemented Sprint 2 to post and caption:
 - [x] User can post pictures from camera/album
 - [x] User can caption on post!
 <img src='https://github.com/CampusLives/CampusLive/blob/main/CampusLives/campusLives2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
@@ -194,7 +194,11 @@ Here's a walkthrough of implemented Sprint 3 to stay logged in across restart an
 - [x] Comment box same as instagram.
 <img src='https://github.com/CampusLives/CampusLive/blob/main/CampusLives/campusLive3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-
+Here's a walkthrough of implemented Sprint 4 to comment on a post and save the comment, and final logo & icon design of our project.
+- [x] User can comment on a post.
+- [x] Comments on a post are saved.
+- [x] Final logo and icon design
+<img src='https://github.com/CampusLives/CampusLive/blob/main/CampusLives/campusLive4.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 
